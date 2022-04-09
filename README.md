@@ -3,7 +3,8 @@ from github import ReadMe
 
 class DraKenCodeZ(ReadMe):
 
-	def __init__(self):		self.name = "DraKen"
+	def __init__(self):
+		self.name = "DraKen"
 
 		self.age = "13, Born 7 Sep 2008"
 
