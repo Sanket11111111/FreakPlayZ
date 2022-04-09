@@ -14,8 +14,6 @@ def github():
 def mail():
 	return render_template("mail.html")
 	
-
-	
 @app.route("/discord")
 def discord():
 	return render_template("discord.html")
