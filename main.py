@@ -14,17 +14,11 @@ def github():
 def mail():
 	return render_template("mail.html")
 	
-@app.route("/medium")
-def medium():
-	return render_template("medium.html")
+
 	
 @app.route("/discord")
 def discord():
 	return render_template("discord.html")
-
-@app.route("/reddit")
-def reddit():
-	return render_template("reddit.html")
 	
 @app.route("/youtube")
 def youtube():
