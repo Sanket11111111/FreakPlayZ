@@ -23,5 +23,4 @@ def discord():
 def youtube():
 	return render_template("youtube.html")
 
-if __name__ == "__main__":
-	app.run(debug=True)
+app.run(debug=True)
