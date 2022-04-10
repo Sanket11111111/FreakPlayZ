@@ -7,7 +7,7 @@ def home():
 	return render_template("index.html")
 
 @app.route("/github")
-def github():
+def githubig():
 	return render_template("github.html")
 	
 @app.route("/mail")
