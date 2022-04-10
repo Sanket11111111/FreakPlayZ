@@ -6,7 +6,7 @@ app = Flask(__name__,template_folder="./templates")
 def home():
 	return render_template("index.html")
 
-@app.route("github")
+@app.route("/github")
 def github():
 	return render_template("github.html")
 	
